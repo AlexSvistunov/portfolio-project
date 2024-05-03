@@ -1,11 +1,33 @@
 .header {
-  padding: 25px;
-  border-radius: 100px;
-  max-width: 600px;
-  margin: 0 auto;
-  backdrop-filter: blur(35px);
-  background: rgba(33, 31, 35, 0.35);
+  
+  // padding: var(--section-gap) 0;
+
   &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__wrapper {
+    flex: 1 1 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;  
+
+
+  }
+
+  &__block {
+    padding: 25px;
+    border-radius: 100px;
+    max-width: 600px;
+    width: 100%;
+    backdrop-filter: blur(35px);
+    background: rgba(33, 31, 35, 0.35);
+    border: 1px solid var(--purple-300);
+
     display: flex;
     align-items: center;
     justify-content: space-between;

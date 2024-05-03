@@ -9,3 +9,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 
 // classname как в бем попробовать через функцию classes
+
+// идеи:
+// живая анимация на всех кнопках, полях. такая по кругу фиолетовая мини с подсветкой

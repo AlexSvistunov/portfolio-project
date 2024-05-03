@@ -5,4 +5,24 @@
     align-items: center;
     gap: 10px;
   }
+
+  &__link {
+    display: inline-block;
+    font-size: 22px;
+    transition: color 0.35s ease-in-out, transform 0.35s ease-in-out;
+    
+    &:hover {
+      color: var(--purple-300);
+      transition: color 0.35s ease-in-out;
+    }
+
+    &:focus {
+      outline: 1px solid transparent;
+      color: var(--purple-300);
+      transform: scale(1.05);
+      transition: color 0.35s ease-in-out, transform 0.35s ease-in-out;
+    }
+
+
+  }
 }

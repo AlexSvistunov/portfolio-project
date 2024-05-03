@@ -1,0 +1,31 @@
+.switch {
+  width: 65px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  background: rgba(33, 31, 35, 0.35);
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 30px;
+    background: rgba(33, 31, 35, 0.35);
+    border-radius: 20px;
+    border: 1px solid var(--green-gradient);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    top: -1px;
+    background: var(--purple-300);
+    -webkit-transition: left .35s;
+    transition: left .35s;
+  }
+}
