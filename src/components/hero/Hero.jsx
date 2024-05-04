@@ -21,6 +21,8 @@ const Hero = () => {
       </div>
     </section>
   )
+
+  // retina photo
 }
 
 export default Hero

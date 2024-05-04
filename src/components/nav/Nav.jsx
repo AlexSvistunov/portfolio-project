@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Nav.scss";
 
 const Nav = () => {
@@ -5,21 +6,31 @@ const Nav = () => {
     <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
-          <a className="nav__link" href="">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "nav__link nav__link--active" : "nav__link"
+            }
+            to={"/"}
+          >
             about
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav__item">
-          <a className="nav__link" href="">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "nav__link nav__link--active" : "nav__link"
+            }
+            to={"/projects"}
+          >
             projects
-          </a>
+          </NavLink>
         </li>
 
         <li className="nav__item">
-          <a className="nav__link" href="">
+          <NavLink className="nav__link" to={"/experience"}>
             experience
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

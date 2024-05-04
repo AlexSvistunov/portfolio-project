@@ -1,12 +1,14 @@
 import { Route, Routes } from "react-router-dom"
 import MainPage from "../../pages/MainPage"
+import ProjectsPage from "../../pages/ProjectsPage"
 
 
 const AppRoutes = () => {
   return (
     <>
       <Routes>
-        <Route index path="/" element={<MainPage/>}/>
+        <Route index element={<MainPage/>}/>
+        <Route path="/projects" element={<ProjectsPage/>}/>
       </Routes>
     </>
   )

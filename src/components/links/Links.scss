@@ -4,3 +4,40 @@
   gap: 10px;
 
 }
+
+.link {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 18px;
+  position: relative;
+}
+
+.icon::after {
+  content: "xdayx53@gmail.com";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--purple-300);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+
+  transition: .35s ease-in-out;
+}
+
+.icon:hover::after {
+  opacity: 1;
+  visibility: visible;
+
+  transition: .35s ease-in-out;
+}
