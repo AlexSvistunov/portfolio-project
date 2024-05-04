@@ -1,0 +1,13 @@
+.footer {
+  padding: var(--section-gap) 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+  }
+
+  &__author {
+    font-size: 16px;
+  }
+}

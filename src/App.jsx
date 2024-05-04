@@ -1,14 +1,13 @@
 
+
 import './App.css'
-import Header from './components/header/Header'
-import Hero from './components/hero/Hero'
+import AppRoutes from './components/routes/AppRoutes'
 
 function App() {
  
   return (
     <>
-      <Header/>
-      <Hero/>
+     <AppRoutes/>
     </>
   )
 }
