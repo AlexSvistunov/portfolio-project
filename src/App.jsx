@@ -15,4 +15,7 @@ function App() {
   )
 }
 
+// about me, name, photo, then hobbies then tech stack
+
+
 export default App

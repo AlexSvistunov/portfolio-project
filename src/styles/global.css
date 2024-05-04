@@ -21,3 +21,12 @@ a {
 ul {
   list-style: none;
 }
+
+body::-webkit-scrollbar {
+  width: .5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--purple-300);
+  height: 1rem;
+}
