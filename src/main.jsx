@@ -18,3 +18,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // https://arseniy-pomazkov.web.app/
 // у меня много инструментов, а вообще каждый инструмент быстро учится!
 // плавный скрол на сайте, анимации при плавном скролле
+// menu mode где меняю .gradient-bg opacity
+// сделать анимацию росписи
