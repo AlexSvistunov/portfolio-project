@@ -12,6 +12,10 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+
+  & svg stroke {
+    fill: var(--white);
+  }
 }
 
 .icon {
