@@ -4,6 +4,7 @@ import "./ThemeSwitcher.scss";
 const ThemeSwitcher = () => {
   const [currentLanguage, setCurrentLanguage] = useState("en");
   // localStorage
+  // tabindex
 
   return (
     <div
