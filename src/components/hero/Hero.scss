@@ -32,6 +32,7 @@
     margin: 0;
     font-size: 64px;
     margin-bottom: 25px;
+    max-width: 490px;
 
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -39,7 +40,8 @@
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
       typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+      blink-caret 1s infinite;
+
   }
 
   &__descr {
