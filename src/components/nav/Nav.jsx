@@ -32,6 +32,12 @@ const Nav = () => {
             experience
           </NavLink>
         </li>
+
+        {/* <li className="nav__item">
+          <NavLink className="nav__link" to={"/faq"}>
+           faq
+          </NavLink>
+        </li> */}
       </ul>
     </nav>
   );

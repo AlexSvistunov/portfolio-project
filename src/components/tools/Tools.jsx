@@ -76,7 +76,14 @@ const Tools = () => {
                 <div className="tool-element__circle">
                   <img src="/tailwind-icon.svg" width={30} height={30}></img>
                 </div>
-                <span className="tool-element__name">TailWind</span>
+                <span className="tool-element__name">Tailwind</span>
+              </li>
+
+              <li className="tool-item__element tool-element">
+                <div className="tool-element__circle">
+                  <img src="/daisyui-icon.svg" width={30} height={30}></img>
+                </div>
+                <span className="tool-element__name">Daisy UI</span>
               </li>
             </ul>
           </li>
@@ -105,6 +112,8 @@ const Tools = () => {
                 </div>
                 <span className="tool-element__name">Gulp</span>
               </li>
+
+          
             </ul>
           </li>
         </ul>
