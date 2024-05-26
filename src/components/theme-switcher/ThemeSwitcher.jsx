@@ -1,9 +1,28 @@
-import './ThemeSwitcher.scss'
+import { useState } from "react";
+import "./ThemeSwitcher.scss";
 
 const ThemeSwitcher = () => {
-  return (
-    <div className="switch"></div>
-  )
-}
+  const [currentLanguage, setCurrentLanguage] = useState("en");
+  // localStorage
+  // tabindex
 
-export default ThemeSwitcher
+  return (
+    <div
+      className={`switch ${
+        currentLanguage === "ru" ? "language--ru" : "language--eng"
+      }`}
+      onClick={(e) => {
+        if (currentLanguage === "ru") {
+          setCurrentLanguage("en");
+        } else {
+          setCurrentLanguage("ru");
+        }
+      }}
+    >
+      <span>EN</span>
+      <span>RU</span>
+    </div>
+  );
+};
+
+export default ThemeSwitcher;
