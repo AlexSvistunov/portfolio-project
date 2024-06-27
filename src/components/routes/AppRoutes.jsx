@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom"
 import MainPage from "../../pages/MainPage"
-import ProjectsPage from "../../pages/ProjectsPage"
+import ProjectsPage from "../../pages/ExperiencePage"
 import AnimationTest from "../../pages/AnimationTest"
-import ExperiencePage from "../../pages/ExperiencePage"
+import ExperiencePage from "../../pages/ProjectsPage"
 
 
 const AppRoutes = () => {
@@ -10,9 +10,9 @@ const AppRoutes = () => {
     <>
       <Routes>
         <Route index element={<MainPage/>}/>
-        <Route path="/projects" element={<ProjectsPage/>}/>
+        <Route path="/experience" element={<ProjectsPage/>}/>
         <Route path="/animation" element={<AnimationTest/>}/>
-        <Route path="/experience" element={<ExperiencePage/>}/>
+        <Route path="/projects" element={<ExperiencePage/>}/>
       </Routes>
     </>
   )

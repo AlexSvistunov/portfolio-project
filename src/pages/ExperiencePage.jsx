@@ -1,19 +1,19 @@
-import Experience from "../components/experience/Experience"
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-
+import Tools from "../components/tools/Tools";
+import Experience from "../components/experience/Experience";
 
 const ExperiencePage = () => {
   return (
     <>
-    <Header />
-    <main className="main">
-      <Experience/>
-    </main>
+      <Header />
+      <main className="main">
+        <Experience/>
+      </main>
 
-    <Footer />
-  </>
-  )
-}
+      <Footer />
+    </>
+  );
+};
 
-export default ExperiencePage
+export default ExperiencePage;

@@ -4,88 +4,26 @@ const Projects = () => {
   return (
     <section className="projects">
       <div className="container">
-        <ul className="projects__list">
-          <li className="projects__item project-item">
-            <div className="project-item__info">
-              <h3 className="project-item__post">
-                Front-end Software Engineer
-              </h3>
-              <span className="project-item__type">Contract</span>
-              <div className="project-item__date">
-                <span>Jan 2020</span>
-                <span>Present</span>
-              </div>
+        <div className="projects__list">
+          <div className="projects__list-item project-item">
+            <a className="project-item__website" href="">
+              Dproxy
+            </a>
+            <p className="project-item__descr">
+              Dproxy descr
+            </p>
 
-              <div className="project-item__location">Manaus, AM - Brazil</div>
+            <div className="project-item__links">
+            <a href="">Demo
+            {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="width: 0.75rem; height: 0.75rem; fill: currentcolor;"><g data-name="Layer 2"><g data-name="external-link"><rect width="24" height="24" opacity="0"></rect><path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z"></path><path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z"></path></g></g></svg> */}
+            </a>
+            <a href="">Source</a>
             </div>
-            <div className="project-item__text">
-              <header className="project-item__header">
-                <span className="project-item__name">Company Name</span>
-              </header>
-
-              <div className="project-item__texts">
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </p>
-
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li className="projects__item project-item">
-            <div className="project-item__info">
-              <h3 className="project-item__post">
-                Front-end Software Engineer
-              </h3>
-              <span className="project-item__type">Contract</span>
-              <div className="project-item__date">
-                <span>Jan 2020</span>
-                <span>Present</span>
-              </div>
-
-              <div className="project-item__location">Manaus, AM - Brazil</div>
-            </div>
-            <div className="project-item__text">
-              <header className="project-item__header">
-                <span className="project-item__name">Company Name</span>
-              </header>
-
-              <div className="project-item__texts">
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </p>
-
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
   );
 };
-
-// отдельный компонент item
 
 export default Projects;
