@@ -11,7 +11,7 @@ const Hero = () => {
           </p>
 
           <div className='hero__btns hero-btns'>
-            <button className='hero-btns__cv'>Download CV</button>
+            <button className='hero-btns__cv'>View CV</button>
             <button className='hero-btns__exp'>See experiences</button>
           </div>
         </div>
