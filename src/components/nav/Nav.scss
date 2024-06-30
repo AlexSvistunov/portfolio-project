@@ -11,20 +11,25 @@
     font-size: 22px;
     transition: color 0.35s ease-in-out, transform 0.35s ease-in-out;
 
-    &--active {
-      color: var(--purple-300);
-    }
+   
     
     &:hover {
-      color: var(--purple-300);
+      color: rgb(196, 190, 190);
       transition: color 0.35s ease-in-out;
     }
 
     &:focus {
       outline: 1px solid transparent;
-      color: var(--purple-300);
+      color: rgb(196, 190, 190);
       transform: scale(1.05);
       transition: color 0.35s ease-in-out, transform 0.35s ease-in-out;
+    }
+
+    &--active {
+      color: var(--purple-300);
+      &:hover {
+        color: var(--purple-300);
+      }
     }
 
 

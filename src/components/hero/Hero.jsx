@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Hero.scss'
 
 const Hero = () => {
@@ -12,7 +13,8 @@ const Hero = () => {
 
           <div className='hero__btns hero-btns'>
             <button className='hero-btns__cv'>View CV</button>
-            <button className='hero-btns__exp'>See experiences</button>
+            {/* <button className='hero-btns__exp'>See experiences</button> */}
+            <Link className='hero-btns__exp' to={'/experience'}>See experiences</Link>
           </div>
         </div>
         <div className='hero__image'>
