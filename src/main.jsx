@@ -25,3 +25,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // мои проекты: сделать слайдер, в котором есть телефон и компьютер картинки и нам можно на них листать и смотреть сайт побырику. также там есть ->>>
 // ->>> ссылка на код, онлайн чтобы можно было увидеть, описание проекта, ссылка на описание проекта
 // kenan agency gallery projects idea with mockup phone and laptop
+
+// change the hero animation

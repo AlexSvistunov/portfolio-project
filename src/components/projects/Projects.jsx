@@ -1,3 +1,4 @@
+import Project from "../project/Project";
 import "./Projects.scss";
 
 const Projects = () => {
@@ -6,7 +7,7 @@ const Projects = () => {
       <div className="container">
         <h1 className="projects__title">Projects</h1>
         <div className="projects__list">
-          <div className="projects__list-item project-item">
+          {/* <div className="projects__list-item project-item">
             <a className="project-item__website" href="">
               Dproxy
             </a>
@@ -45,9 +46,11 @@ const Projects = () => {
                 Source
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div className="projects__list-item project-item">
+          <Project title='Dproxy' descr='A website of mobile proxy' demo='https://alexsvistunov.github.io/dproxy/' source='https://github.com/AlexSvistunov/dproxy'/>
+
+          {/* <div className="projects__list-item project-item">
             <a className="project-item__website" href="">
               Dproxy version 2.0
             </a>
@@ -88,9 +91,11 @@ const Projects = () => {
                 Source
               </a>
             </div>
-          </div>
+          </div> */}
 
-          <div className="projects__list-item project-item">
+          <Project title='Dproxy v2.0' descr='A website of mobile proxy (re-design version)' demo='https://dproxy.co/ru/' source='https://github.com/AlexSvistunov/dproxy-v2'/>
+
+          {/* <div className="projects__list-item project-item">
             <a className="project-item__website" href="">
               HabitHUB
             </a>
@@ -131,13 +136,16 @@ const Projects = () => {
                 Source
               </a>
             </div>
-          </div>
+          </div> */}
+
+          
+          <Project title='HabitHUB' descr='A task app for everyday usage with a calendar' demo='https://github.com/AlexSvistunov/task-daily-app-full-w-backend' source='https://github.com/AlexSvistunov/task-daily-app-full-w-backend'/>
 
           <div className="projects__list-item project-item">
             <a className="project-item__website" href="">
               Alias app
             </a>
-            <p className="project-item__descr">A website of mobile proxy</p>
+            <p className="project-item__descr">Alias game with teams</p>
 
             <div className="project-item__links">
               <a
@@ -173,6 +181,9 @@ const Projects = () => {
               </a>
             </div>
           </div>
+
+          <Project title='HabitHUB' descr='A task app for everyday usage with a calendar' demo='https://alias-app-five.vercel.app/' source='https://github.com/AlexSvistunov/alias-app'/>
+
 
           <div className="projects__list-item project-item">
             <a className="project-item__website" href="">
@@ -215,6 +226,8 @@ const Projects = () => {
             </div>
           </div>
 
+          <Project title='MastersHUB' descr='An online-service for finding a master/studio/service, making appointments, client management ' demo='https://masters-hub.vercel.app/' source='https://github.com/AlexSvistunov/masters-hub'/>
+
           <div className="projects__list-item project-item">
             <a className="project-item__website" href="">
               Portfolio project
@@ -255,6 +268,8 @@ const Projects = () => {
               </a>
             </div>
           </div>
+
+          <Project title='Portfolio project' descr="The portfolio website that you're on right now" demo='https://alex-svistunov.vercel.app/' source='https://github.com/AlexSvistunov/portfolio-project'/>
         </div>
       </div>
     </section>

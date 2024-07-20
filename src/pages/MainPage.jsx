@@ -9,8 +9,9 @@ const MainPage = () => {
       <Header />
       <main className="main">
         <Hero />
-      </main>
         <Tools/>
+      </main>
+        
         {/* languages */}
       <Footer />
     </>
