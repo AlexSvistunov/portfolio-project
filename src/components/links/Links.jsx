@@ -27,7 +27,7 @@ const Links = () => {
 
       <button
         className="link icon"
-        onClick={() => (window.location = "mailto:xdayx53@gmail.com")}
+        onClick={() => (window.location = "mailto:alexsvistunov17@gmail.com")}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +46,5 @@ const Links = () => {
 };
 
 
-// при наведении покажется мой email или подсвечивание кастомное
 
 export default Links;
