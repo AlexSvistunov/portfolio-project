@@ -4,6 +4,9 @@ import "./Links.scss";
 const Links = () => {
   return (
     <div className="links">
+      <Link className="link" target="_blank" to={'https://www.linkedin.com/in/alex-svistunov-9b8112287/'}>
+        <img width={30} height={30} src="/linkedin.svg"></img>
+      </Link>
       <Link
         className="link"
         target="_blank"
@@ -44,7 +47,5 @@ const Links = () => {
     </div>
   );
 };
-
-
 
 export default Links;

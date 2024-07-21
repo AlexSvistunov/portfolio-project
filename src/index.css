@@ -2,7 +2,3 @@
 @import './styles/normalize.css';
 @import './styles/variables.css';
 @import './styles/global.css';
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
