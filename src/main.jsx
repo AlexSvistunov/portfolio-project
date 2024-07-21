@@ -27,3 +27,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 // kenan agency gallery projects idea with mockup phone and laptop
 
 // change the hero animation
+// adaptive
